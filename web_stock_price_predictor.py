@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import yfinance as yf
 from sklearn.preprocessing import MinMaxScaler
 from datetime import datetime
-
+import gunicorn
 st.title("Stock Price Predictor App")
 
 # Input for the stock ticker
