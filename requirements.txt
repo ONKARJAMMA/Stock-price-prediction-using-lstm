@@ -6,3 +6,4 @@ scikit-learn==1.2.2
 setuptools==65.5.0
 yfinance==0.2.30
 matplotlib==3.7.1
+gunicorn
