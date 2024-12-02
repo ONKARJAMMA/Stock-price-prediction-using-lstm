@@ -1,25 +1,25 @@
-streamlit
-tensorflow
-setuptools==65.5.0
-yfinance
-matplotlib==3.7.1
-blinker==1.8.2
-click==8.1.7
-colorama==0.4.6
-Flask
-gunicorn==22.0.0
-itsdangerous==2.2.0
-Jinja2==3.1.4
-joblib==1.4.2
-MarkupSafe==2.1.5
-numpy
-packaging==24.1
-pandas
-python-dateutil==2.9.0.post0
-pytz==2024.1
-scikit-learn
-scipy==1.14.0
-six==1.16.0
-threadpoolctl==3.5.0
-tzdata==2024.1
-Werkzeug==3.0.3
+streamlit==1.25.0           # Specify a stable version for Streamlit
+tensorflow==2.14.0          # Ensure TensorFlow is compatible with Python 3.12
+setuptools==65.5.0          # Matches your provided version
+yfinance==0.2.24            # Stable version of yfinance
+matplotlib==3.7.1           # As specified
+blinker==1.8.2              # As specified
+click==8.1.7                # As specified
+colorama==0.4.6             # As specified
+Flask==2.3.2                # Updated to match other dependencies
+gunicorn==22.0.0            # As specified
+itsdangerous==2.2.0         # As specified
+Jinja2==3.1.4               # As specified
+joblib==1.4.2               # As specified
+MarkupSafe==2.1.5           # As specified
+numpy==1.26.0               # Ensure compatibility with TensorFlow
+packaging==24.1             # As specified
+pandas==2.1.3               # Latest version at the time of writing
+python-dateutil==2.9.0.post0 # As specified
+pytz==2024.1                # As specified
+scikit-learn==1.4.2         # Matches joblib version for compatibility
+scipy==1.14.0               # As specified
+six==1.16.0                 # As specified
+threadpoolctl==3.5.0        # As specified
+tzdata==2024.1              # As specified
+Werkzeug==3.0.3             # As specified
